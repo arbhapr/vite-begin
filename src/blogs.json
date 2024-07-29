@@ -1,0 +1,97 @@
+[
+    {
+        "title": "How to build Vue apps",
+        "tags": [
+            "vue",
+            "js",
+            "frontend"
+        ],
+        "date": "2023-01-01",
+        "isNew": true
+    },
+    {
+        "title": "Understanding React State",
+        "tags": [
+            "react",
+            "js",
+            "frontend"
+        ],
+        "date": "2023-02-15",
+        "isNew": true
+    },
+    {
+        "title": "Mastering Laravel for Back-End Development",
+        "tags": [
+            "laravel",
+            "php",
+            "backend"
+        ],
+        "date": "2023-03-10",
+        "isNew": false
+    },
+    {
+        "title": "Getting Started with PHP",
+        "tags": [
+            "php",
+            "backend"
+        ],
+        "date": "2023-04-05",
+        "isNew": false
+    },
+    {
+        "title": "Exploring MySQL Databases",
+        "tags": [
+            "mysql",
+            "database"
+        ],
+        "date": "2023-05-20",
+        "isNew": false
+    },
+    {
+        "title": "Advanced JavaScript Techniques",
+        "tags": [
+            "js",
+            "advanced"
+        ],
+        "date": "2023-06-18",
+        "isNew": false
+    },
+    {
+        "title": "Building RESTful APIs with Node.js",
+        "tags": [
+            "node.js",
+            "api",
+            "backend"
+        ],
+        "date": "2023-07-22",
+        "isNew": false
+    },
+    {
+        "title": "CSS Grid vs Flexbox: A Comparison",
+        "tags": [
+            "css",
+            "grid",
+            "flexbox"
+        ],
+        "date": "2023-08-30",
+        "isNew": false
+    },
+    {
+        "title": "Introduction to TypeScript",
+        "tags": [
+            "typescript",
+            "js"
+        ],
+        "date": "2023-09-12",
+        "isNew": false
+    },
+    {
+        "title": "Debugging Tips and Tricks in JavaScript",
+        "tags": [
+            "js",
+            "debugging"
+        ],
+        "date": "2023-10-25",
+        "isNew": false
+    }
+]
