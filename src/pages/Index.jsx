@@ -1,20 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import postData from "../blogs.json";
 import Article from "../components/Article";
 import Search from "../components/Search";
 
 const Homepage = () => {
     const [posts, setPosts] = useState(postData);
-    const [totalPosts, setTotalPosts] = useState(0);
+    const [totalPosts, setTotalPosts] = useState(postData.length);
     const onSearchChange = (value) => {
-        const lowerValue = value.toLowerCase();
-        console.log(lowerValue);
+        const lowerValue = value?.toLowerCase();
         const filteredPosts = postData.filter((item) =>
             item.title.toLowerCase().includes(lowerValue)
         );
         setPosts(filteredPosts);
         setTotalPosts(filteredPosts.length);
     };
+
     return (
         <>
             <h1>Simple Blog</h1>

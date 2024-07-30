@@ -6,7 +6,7 @@ const Search = (props) => {
     };
 
     const searchKeyDown = (e) => {
-        if ((e.key = "Enter")) {
+        if ((e.key == "Enter")) {
             onSearchChange();
         }
     };
